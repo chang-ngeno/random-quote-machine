@@ -1,0 +1,34 @@
+
+.App-link {
+  color: #61dafb;
+}
+
+#quote-box{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  .button-group{
+    min-width: 100%;
+  }
+}
+#saying{
+  .card{
+    max-width: inherit;
+    min-height: 10em;
+    .card-body{
+      //min-height: inherit;
+      padding: 0px;
+      #text{
+        font-size: 1.5em;
+        text-align: center;
+      }
+    }
+    #author{
+      font-style: italic;
+      font-size: medium;
+    }
+  }
+}

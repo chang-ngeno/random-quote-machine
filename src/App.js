@@ -25,7 +25,7 @@ export default class App extends React.Component {
     this.refreshQuote();
   }
   refreshQuote() {
-    fetch('http://quotes.stormconsultancy.co.uk/random.json')
+    fetch('https://quotes.stormconsultancy.co.uk/random.json')
       .then(res => res.json())
       .then((data) => {
         this.setState({ saying: data })

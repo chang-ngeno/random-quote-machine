@@ -2,7 +2,7 @@
   "name": "random-quote-machine",
   "version": "1.0.0",
   "private": false,
-  "homepage": "https://chang-ngeno.github.io/random-quote-machine"
+  "homepage": "https://chang-ngeno.github.io/random-quote-machine",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
